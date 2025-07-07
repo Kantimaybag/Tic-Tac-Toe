@@ -37,7 +37,7 @@ const checkWinner = () => {
         if (pos1val === pos2val && pos2val === pos3val && pos1val !== "") {
             
             alert(`Player ${pos1val} wins!`);
-          
+          return;
             disableBoxes();
         }
     }
